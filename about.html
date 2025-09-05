@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>品牌故事 | 哈卤卤肉饭</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/script.js"></script>
+</head>
+<body>
+    <!-- 加载动画和导航栏复用 -->
+    <div id="preloader"><div class="spinner"></div></div>
+    <header>
+        <nav class="navbar">
+            <!-- 使用VI提取的手写Logo替换文字Logo -->
+            <div class="logo">
+                <img src="assets/nav_calligraphy_final.png" alt="哈卤卤肉饭 logo" class="logo-brand">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html" class="active">品牌故事</a></li>
+                <li><a href="menu.html">招牌菜品</a></li>
+                <li><a href="join.html">加盟合作</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 品牌故事主体 -->
+    <section class="section reveal light-bg" style="margin-top:80px;">
+        <div class="container">
+            <h2>我们的故事</h2>
+            <p style="font-size:1.2rem; margin-bottom:30px; text-align:center;">源于味道，也超越味道</p>
+            <div class="story">
+                <div class="text">
+                    <p>2015年，我们在南方的街头开出第一家哈卤卤肉饭小店。深受祖传湖湘秘方的启发，我们将古法卤味与现代工艺结合，推出独具特色的南派卤肉饭。我们坚信，好味道来自于真材实料——28种天然香料、精选肉类与原材、30道匠心工序，每一步都凝结着匠人的时间与耐心。</p>
+                    <p>随着品牌不断发展，我们不仅在全国拓展连锁门店，还着力打造年轻化的品牌形象。明亮的橙黄色调、清新的空间设计、个性化的音乐氛围，形成独一无二的潮流店面。顾客在享受美味的同时，也能感受到生活的轻松与快乐。</p>
+                    <p>在供应链方面，我们建立了完整的中央厨房与现代化加工厂，从原料采购、生产加工到门店配送全面掌控，确保每一碗卤肉饭在不同门店都能保持统一品质。未来，我们将持续探索更多健康美味的产品，拓展海外市场，把南派卤肉饭的香味带到世界每个角落。</p>
+                </div>
+                <div class="image">
+                    <img src="assets/hero2.png" alt="品牌故事插图">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 品牌理念 -->
+    <section class="section reveal light-bg">
+        <div class="container">
+            <h2>品牌理念</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <div class="feature-icon">💡</div>
+                    <h3>匠心传承</h3>
+                    <p>坚守传统工艺，同时勇于创新，成就独一无二的卤肉饭文化。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🤝</div>
+                    <h3>共赢合作</h3>
+                    <p>与供应商、加盟伙伴携手共进，共同打造高效透明的餐饮生态。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌱</div>
+                    <h3>健康可持续</h3>
+                    <p>坚持用最天然的食材，关注环境友好，实现企业与社会共同发展。</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎨</div>
+                    <h3>潮流美学</h3>
+                    <p>将闽南文化与现代审美融合，用艺术打造有温度的空间体验。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 发展历程复用时间轴 -->
+    <section class="section reveal light-bg" id="history">
+        <div class="container">
+            <h2>成长足迹</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="circle">2015</div>
+                    <div class="content">
+                        <h3>第1家门店诞生</h3>
+                        <p>在广州开业第一家门店，凭借好口碑迅速走红。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle">2017</div>
+                    <div class="content">
+                        <h3>完善供应链</h3>
+                        <p>建立中央厨房和加工厂，提升出品稳定性和效率。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle">2020</div>
+                    <div class="content">
+                        <h3>走向全国</h3>
+                        <p>门店突破300家，覆盖全国主要城市，赢得广大消费者认可。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle">2024</div>
+                    <div class="content">
+                        <h3>数字化升级</h3>
+                        <p>上线智能点餐系统与会员程序，提升消费体验。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 尾部复用 -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> 哈卤卤肉饭. 保留所有权利.</p>
+            <p>继承传统味道，传播健康快乐。</p>
+        </div>
+    </footer>
+
+    <!-- 在线客服及返回顶部 -->
+    <div id="chat-widget">
+        <button id="chat-toggle">💬</button>
+        <div id="chat-box" class="hidden">
+            <div class="chat-header"><h4>智能客服</h4><button id="chat-close">×</button></div>
+            <div class="chat-body" id="chat-messages">
+                <!-- 动态对话内容将插入这里 -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="请输入您的问题..." />
+                <button id="chat-send">发送</button>
+            </div>
+        </div>
+    </div>
+    <button id="back-to-top" aria-label="返回顶部">↑</button>
+
+    <!-- 浮动吉祥物 -->
+    <div id="floating-pig"><img src="assets/pig_head.png" alt="吉祥物"></div>
+</body>
+</html>

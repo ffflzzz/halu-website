@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 | 哈卤卤肉饭</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/script.js"></script>
+</head>
+<body>
+    <div id="preloader"><div class="spinner"></div></div>
+    <header>
+        <nav class="navbar">
+            <!-- 使用VI提取的手写Logo替换文字Logo -->
+            <div class="logo">
+                <img src="assets/nav_calligraphy_final.png" alt="哈卤卤肉饭 logo" class="logo-brand">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">品牌故事</a></li>
+                <li><a href="menu.html">招牌菜品</a></li>
+                <li><a href="join.html">加盟合作</a></li>
+                <li><a href="contact.html" class="active">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main style="margin-top:80px;">
+        <section class="section reveal light-bg">
+            <div class="container">
+                <h2>联系我们</h2>
+                <p style="text-align:center; font-size:1.2rem; margin-bottom:30px;">如果您有任何疑问或建议，请随时与我们取得联系</p>
+                <div class="contact-flex">
+                    <div class="contact-info">
+                        <p><strong>服务热线：</strong>400-888-8888</p>
+                        <p><strong>加盟热线：</strong>400-888-9999</p>
+                        <p><strong>邮箱：</strong>contact@halu.com</p>
+                        <p><strong>地址：</strong>广东省广州市越秀区创新大道88号</p>
+                        <p>营业时间：周一至周日 10:00-22:00</p>
+                    </div>
+                    <div class="contact-form">
+                        <form action="#" method="post" onsubmit="return false;">
+                            <input type="text" name="name" placeholder="您的姓名" required>
+                            <input type="email" name="email" placeholder="您的邮箱" required>
+                            <input type="tel" name="phone" placeholder="联系电话" required>
+                            <textarea name="message" placeholder="您的留言" required></textarea>
+                            <button type="submit" class="btn">发送信息</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta reveal">
+            <div class="overlay">
+                <div class="cta-content">
+                    <h2>关注我们</h2>
+                    <p>扫描二维码或在社交平台搜索“哈卤卤肉饭”，第一时间获取新品上市和优惠活动信息。</p>
+                    <a href="about.html" class="btn">了解我们的故事</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> 哈卤卤肉饭.</p>
+            <p>期待与您的每一次相遇。</p>
+        </div>
+    </footer>
+    <div id="chat-widget">
+        <button id="chat-toggle">💬</button>
+        <div id="chat-box" class="hidden">
+            <div class="chat-header"><h4>智能客服</h4><button id="chat-close">×</button></div>
+            <div class="chat-body" id="chat-messages">
+                <!-- 动态对话内容将插入这里 -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="请输入您的问题..." />
+                <button id="chat-send">发送</button>
+            </div>
+        </div>
+    </div>
+    <button id="back-to-top">↑</button>
+
+    <!-- 浮动吉祥物 -->
+    <div id="floating-pig"><img src="assets/pig_head.png" alt="吉祥物"></div>
+</body>
+</html>

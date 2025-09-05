@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>招牌菜品 | 哈卤卤肉饭</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/script.js"></script>
+</head>
+<body>
+    <div id="preloader"><div class="spinner"></div></div>
+    <header>
+        <nav class="navbar">
+            <!-- 使用VI提取的手写Logo替换文字Logo -->
+            <div class="logo">
+                <img src="assets/nav_calligraphy_final.png" alt="哈卤卤肉饭 logo" class="logo-brand">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">品牌故事</a></li>
+                <li><a href="menu.html" class="active">招牌菜品</a></li>
+                <li><a href="join.html">加盟合作</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main style="margin-top:80px;">
+        <section class="section reveal light-bg">
+            <div class="container">
+                <h2>招牌菜品</h2>
+                <p style="text-align:center; font-size:1.2rem; margin-bottom:10px;">多款招牌菜品，经典与创新相融</p>
+                <p style="text-align:center; font-size:1rem; margin-bottom:30px; color:#666;">主类产品种类少而垂直优质（步骤简单，制作效率高，对外卖出餐有天然优势）</p>
+                <div class="menu-grid">
+                    <div class="menu-item" id="p1">
+                        <!-- 使用真实菜品图片替换插画 -->
+                        <img src="assets/real1.png" alt="香甜卤肉饭">
+                        <div class="menu-content">
+                            <h3>香甜卤肉饭</h3>
+                            <p>卤肉香甜不腻，酱汁浓郁包裹五花肉，搭配时蔬与卤蛋，幸福感满满。</p>
+                            <p class="recommend">推荐搭配：卤蛋、脆爽青菜。</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="p2">
+                        <img src="assets/real2.png" alt="香酥鸡丝饭">
+                        <div class="menu-content">
+                            <h3>香酥鸡丝饭</h3>
+                            <p>鸡肉香酥切丝，秘制酱汁淋在米饭上，外卖必点的人气之选。</p>
+                            <p class="recommend">推荐搭配：腌黄瓜、椒盐薯条。</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="p3">
+                        <img src="assets/real3.png" alt="酥香肉燥饭">
+                        <div class="menu-content">
+                            <h3>酥香肉燥饭</h3>
+                            <p>肉燥粒粒分明，酱香浓郁，撒上芝麻更添香气，入口难忘。</p>
+                            <p class="recommend">推荐搭配：香菇卤蛋、爽口萝卜丁。</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="p4">
+                        <img src="assets/real4.png" alt="姜母鸭饭">
+                        <div class="menu-content">
+                            <h3>姜母鸭饭</h3>
+                            <p>采用经典姜母鸭烹制方式，慢火焖煮，肉嫩汤鲜，暖身又暖胃。</p>
+                            <p class="recommend">推荐搭配：贡丸汤、香菇青菜。</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="p5">
+                        <img src="assets/real5.png" alt="海味白菜卤汤饭">
+                        <div class="menu-content">
+                            <h3>海味白菜卤汤饭</h3>
+                            <p>海味与白菜融合的温润汤饭，加入虾仁、鱼丸、莲藕等食材，汤鲜味美营养足。</p>
+                            <p class="recommend">推荐搭配：脆皮豆腐、海带丝。</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="p6">
+                        <img src="assets/real6.png" alt="热辣滚烫鸡汤">
+                        <div class="menu-content">
+                            <h3>热辣滚烫鸡汤</h3>
+                            <p>鸡汤滚烫浓香，加入冬菇与青笋，微辣滋补，汤色金黄令人食欲大开。</p>
+                            <p class="recommend">推荐搭配：炸腐竹、香菇酱菜。</p>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="p7">
+                        <img src="assets/real7.png" alt="闽系小吃">
+                        <div class="menu-content">
+                            <h3>闽系小吃</h3>
+                            <p>福建特色小吃组合，包括卤豆干、炸金针菇、鸡丝卷、炸黑豆腐、甜蜜糕点等，多样选择让味蕾更丰富。</p>
+                            <p class="recommend">推荐搭配：珍珠奶茶、卤花生。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> 哈卤卤肉饭.</p>
+            <p>感谢每位顾客的支持，愿美味与您常相伴。</p>
+        </div>
+    </footer>
+
+    <!-- 客服与返回按钮复用 -->
+    <div id="chat-widget">
+        <button id="chat-toggle">💬</button>
+        <div id="chat-box" class="hidden">
+            <div class="chat-header"><h4>智能客服</h4><button id="chat-close">×</button></div>
+            <div class="chat-body" id="chat-messages">
+                <!-- 动态对话内容将插入这里 -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="请输入您的问题..." />
+                <button id="chat-send">发送</button>
+            </div>
+        </div>
+    </div>
+    <button id="back-to-top">↑</button>
+
+    <!-- 浮动吉祥物 -->
+    <div id="floating-pig"><img src="assets/pig_head.png" alt="吉祥物"></div>
+</body>
+</html>
